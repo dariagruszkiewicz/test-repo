@@ -1,0 +1,273 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
+/* żeby całości dodać width to dodatkowy div, albo kasy globalne (nav,main itd), wtedy max-width */
+
+.main-title {
+  color: #ffffff;
+  font-size: 2.75rem;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.63rem;
+  line-height: 1.19;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 215px;
+
+}
+
+.logo-front {
+  color: #2196f3;
+}
+
+.nav-link {
+  color: #212121;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.88rem;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts-link {
+  color: #757575;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.88rem;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+}
+
+.main-button {
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  margin-left: 248px;}
+
+.first-section {
+  background-color: #2f303a;
+  height: 600px;
+  padding: 200px 452px 280px;
+}
+
+.second-section-title {
+  font-weight: 700;
+  font-size: 0.88rem;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.second-section-description {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-button-list-item {
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+}
+
+.portfolio-button-list-item:hover,
+.portfolio-button-list-item:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+.portfolio-titles {
+  font-weight: 700;
+  font-size: 1.13rem;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-desctiption {
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.employee-names {
+  font-weight: 500;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.employee-position {
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.footer-style {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-size: 0.88rem;
+  height: 252px;
+}
+
+.footer-contacts-link {
+  color: #ffffff;
+  opacity:0.6;
+  text-decoration: none;
+}
+address{
+  margin-left: 215px;
+}
+
+.footer-contacts-link-email {
+  text-decoration: underline;
+  
+}
+
+.logo-back {
+  color: #ffffff;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.header-contacts-link:hover,
+.header-contacts-link:focus,
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: #2196f3;
+}
+
+.nav-list,
+.second-section-list,
+.third-section-list,
+.employee-list,
+.portfolio-button-list,
+.portfolio-images-list {
+  list-style-type: none;
+}
+
+.second-section-list{
+  width: 1170px;
+  height: 101px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
+.athird-section-list{
+  width: 1170px;
+  height: 386px;
+  background-color: red;
+ display:flex;
+ justify-content: space-between;
+ padding-left: 0;
+ align-items:flex-end;
+ margin-left: 215px;
+ margin-right: 215px;
+}
+
+.header-box {
+  height: 80px;
+  weight: 1600px;
+  background-color: green;
+  display: flex;
+  
+}
+
+.nav-list{
+ display: flex;
+}
+
+.nav-list-box{
+  width: 254px;
+  height: 16px;
+margin: 32px 893px 32px 453px;
+display: flex;
+justify-content:space-between;
+
+}
+
+.logo-nav{
+  margin: 24px 1240px 25px 215px;
+}
+
+.czymsiezajmunemu{
+  width: 1170px;
+  height: 386px;
+  background-color: rgb(255, 255, 255);
+ padding-left: 0;
+ align-items:flex-end;
+ margin-left: 215px;
+ margin-right: 215px;
+ background-color: #2196f3;
+}
+
+.third-section-list-box{
+  display: flex;
+justify-content: space-between;
+padding-left: 0;
+align-itms: flex-end;
+margin-top: 50px;
+}
+
+.team-box{
+  background-color: #F5F4FA;
+}
+
+.employee-list{
+  display: flex;
+  width: 1170px;
+  height: 368px;
+  justify-content: space-between;
+ margin: 186px 215px 94px 215px;
+
+}
+
+.persons-box{
+  background-color: #ffffff;
+  width: 270px;
+  height: 368px;
+ align-content: center;
+  
+}
+
+.site-conteiner{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+
+/* SUPER STRONKA https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+ */
